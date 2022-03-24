@@ -122,3 +122,34 @@ ul.horizontal_menu li a{
     font-size: 26px;
     font-weight: 700;
 }
+
+
+.icon_grid{
+    display: inline-block;
+    background-color: brown;
+    padding: 5px;
+}
+
+.icon_holder{
+    display: inline-block;
+    background-color: white; /*!!!*/
+    width: 350px;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.icon_holder img{
+    height: 100px;
+}
+
+.icon_holder h3{
+    font-family: 'Merriweather', serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.icon_holder p{
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    font-weight: 400;
+}
