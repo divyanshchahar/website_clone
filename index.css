@@ -67,3 +67,50 @@ ul.horizontal_menu li a{
     cursor: pointer;
     border-radius: 4px;
 }
+
+
+/* 
+####################
+## DROP DOWN MENU ##
+#################### 
+*/
+
+/* container div */
+.display_div{
+    margin-top: 70px;
+    width: 100%; 
+    /* padding: 0px 15px 35px 15px; */
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:red; /*!!!*/
+}
+
+/* small container to hold text and headings */
+.small_container{
+    background-color: green; /*!!!*/
+    width: 800px;
+    margin: 0 auto;
+}
+
+.small_container h1{
+    font-family: 'Merriweather', serif;
+    font-size: 64px;   
+}
+
+.small_container p{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+.small_container button{
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: transparent;
+    border: 4px solid rgba(42, 124, 255, 1);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 50px 20px;
+}
