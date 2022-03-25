@@ -92,16 +92,21 @@ ul.horizontal_menu li a{
     margin: 0 auto;
 }
 
+/* heading inside small container */
 .small_container h1{
     font-family: 'Merriweather', serif;
-    font-size: 64px;   
+    font-size: 64px;
+    padding: 20px 0px;  
 }
 
+/* text inside small container */
 .small_container p{
     font-family: 'Merriweather', serif;
     font-size: 20px;
+    padding: 20px 0px;
 }
 
+/* buttons inside small container */
 .small_container button{
     font-family: 'Merriweather', serif;
     font-weight: 600;
@@ -113,23 +118,26 @@ ul.horizontal_menu li a{
     margin: 50px 20px;
 }
 
+/* icons dimensions */
 .small_img{
     height: 90px;
 }
 
+/* second level heading inside display */
 .display_div h2{
     font-family: 'Merriweather', serif;
     font-size: 26px;
     font-weight: 700;
 }
 
-
+/* container to hold icon containers */
 .icon_grid{
     display: inline-block;
     background-color: brown;
     padding: 5px;
 }
 
+/* icon containers */
 .icon_holder{
     display: inline-block;
     background-color: white; /*!!!*/
@@ -138,26 +146,31 @@ ul.horizontal_menu li a{
     padding: 5px;
 }
 
+/* icons inside icon holder container */
 .icon_holder img{
     height: 100px;
 }
 
+/* headings inside icon holder */
 .icon_holder h3{
     font-family: 'Merriweather', serif;
     font-size: 26px;
     font-weight: 700;
 }
 
+/* text in icon holder */
 .icon_holder p{
     font-family: 'Merriweather', serif;
     font-size: 16px;
     font-weight: 400;
 }
 
+/* text containers */
 .text_container{
     display: inline-block;
 }
 
+/* headings inside text containers */
 .text_container h1{
     font-family: 'Merriweather', serif;
     font-size: 80px;
@@ -165,11 +178,13 @@ ul.horizontal_menu li a{
     padding: 10px;
 }
 
+/* text inside text container */
 .text_container p{
     font-family: 'Merriweather', serif;
     font-size: 20px;
 }
 
+/* headings directly inside display div */
 .display_div h1{
     font-family: 'Merriweather', serif;
     font-size: 46px !important;
