@@ -201,6 +201,7 @@ ul.horizontal_menu li a{
     background-color: #dbebfc;
 }
 
+/* partioned display container */
 .partition_container{
     /* background-color: blue; */
     display:inline-block;
@@ -210,12 +211,14 @@ ul.horizontal_menu li a{
     margin: 0px 30px;
 }
 
+/* headings insode partioned display container */
 .partition_container h1{
     font-family: 'Merriweather', serif;
     font-size: 46px;
     padding: 0px 10px;
 }
 
+/* text ins.,ide partioned display container */
 .partition_container p{
     font-family: 'Merriweather', serif;
     font-size: 18px;
