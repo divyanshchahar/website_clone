@@ -85,6 +85,19 @@ ul.horizontal_menu li a{
     background-color:red; /*!!!*/
 }
 
+/* first level heading directly inside display div */
+.display_div h1{
+    font-family: 'Merriweather', serif;
+    font-size: 46px !important;
+}
+
+/* second level heading directly inside display */
+.display_div h2{
+    font-family: 'Merriweather', serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
 /* small container to hold text and headings */
 .small_container{
     background-color: green; /*!!!*/
@@ -118,18 +131,6 @@ ul.horizontal_menu li a{
     margin: 50px 20px;
 }
 
-/* icons dimensions */
-.small_img{
-    height: 90px;
-}
-
-/* second level heading inside display */
-.display_div h2{
-    font-family: 'Merriweather', serif;
-    font-size: 26px;
-    font-weight: 700;
-}
-
 /* container to hold icon containers */
 .icon_grid{
     display: inline-block;
@@ -144,6 +145,11 @@ ul.horizontal_menu li a{
     width: 350px;
     vertical-align: top;
     padding: 5px;
+}
+
+/* icons dimensions */
+.small_img{
+    height: 90px;
 }
 
 /* icons inside icon holder container */
@@ -182,10 +188,4 @@ ul.horizontal_menu li a{
 .text_container p{
     font-family: 'Merriweather', serif;
     font-size: 20px;
-}
-
-/* headings directly inside display div */
-.display_div h1{
-    font-family: 'Merriweather', serif;
-    font-size: 46px !important;
 }
