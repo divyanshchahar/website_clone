@@ -79,11 +79,10 @@ ul.horizontal_menu li a{
 /* container div */
 .display_div{
     margin-top: 70px;
-    padding: 50px 0px 0px 0px; 
     width: 100%; 
     align-items: center;
     text-align: center;
-    background-color:red; /*!!!*/
+    /* background-color:red; */
 }
 
 /* first level heading directly inside display div */
@@ -101,7 +100,7 @@ ul.horizontal_menu li a{
 
 /* small container to hold text and headings */
 .small_container{
-    background-color: green; /*!!!*/
+    /* background-color: green;  */
     width: 800px;
     margin: 0 auto;
 }
@@ -135,14 +134,14 @@ ul.horizontal_menu li a{
 /* container to hold icon containers */
 .icon_grid{
     display: inline-block;
-    background-color: brown;
+    /* background-color: brown; */
     padding: 5px;
 }
 
 /* icon containers */
 .icon_holder{
     display: inline-block;
-    background-color: white; /*!!!*/
+    /* background-color: white; */
     width: 350px;
     vertical-align: top;
     padding: 5px;
@@ -189,4 +188,9 @@ ul.horizontal_menu li a{
 .text_container p{
     font-family: 'Merriweather', serif;
     font-size: 20px;
+}
+
+/* displays with different background */
+.grey_div{
+    background-color: rgba(245, 245, 245, 1);
 }
