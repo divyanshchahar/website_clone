@@ -211,14 +211,14 @@ ul.horizontal_menu li a{
     margin: 0px 30px;
 }
 
-/* headings insode partioned display container */
+/* headings inside partioned display container */
 .partition_container h1{
     font-family: 'Merriweather', serif;
     font-size: 46px;
     padding: 0px 10px;
 }
 
-/* text ins.,ide partioned display container */
+/* text inside partioned display container */
 .partition_container p{
     font-family: 'Merriweather', serif;
     font-size: 18px;
@@ -226,6 +226,7 @@ ul.horizontal_menu li a{
 }
 
 
+/* large container */
 .large_container{
     width: 1200px;
     margin: 0px auto;
@@ -238,7 +239,7 @@ ul.horizontal_menu li a{
     padding: 70px;
 }
 
-
+/* buttons inside large containers */
 .large_container button{
     background-color: transparent;
     border: 3px solid white;
@@ -251,17 +252,19 @@ ul.horizontal_menu li a{
     font-weight: 700;
 }
 
-
+/* container inside large text container to hild text */
 .large_text_container{
     width: 620px;
     text-align: left;
 }
 
+/* headings inside large container */
 .large_container h1{
     font-family: 'Merriweather', serif;
     font-size: 46px;
 }
 
+/* normal text inside large container */
 .large_container p{
     font-family: 'Merriweather', serif;
     font-size: 18px;
