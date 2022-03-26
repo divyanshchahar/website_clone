@@ -175,6 +175,7 @@ ul.horizontal_menu li a{
 /* text containers */
 .text_container{
     display: inline-block;
+    margin: 0px 20px;
 }
 
 /* headings inside text containers */
