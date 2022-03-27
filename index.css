@@ -78,7 +78,6 @@ ul.horizontal_menu li a{
 
 /* container div */
 .display_div{
-    /* margin: 50px 0px; */
     padding: 50px 0px;
     width: 100%; 
     align-items: center;
@@ -253,7 +252,7 @@ ul.horizontal_menu li a{
     font-weight: 700;
 }
 
-/* container inside large text container to hild text */
+/* container inside large text container to hold text */
 .large_text_container{
     width: 620px;
     text-align: left;
@@ -269,5 +268,68 @@ ul.horizontal_menu li a{
 .large_container p{
     font-family: 'Merriweather', serif;
     font-size: 18px;
-    margin-top: 15px;;
+    margin-top: 15px;
+}
+
+/* container to hold vertical menus */
+.long_text_container{
+    text-align: left;
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: top;
+}
+
+/* headings above vertical containers */
+.long_text_container h1{
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer_1{
+    display: flex;
+    justify-content: center;
+}
+
+/* vertical menu */
+.vertical_menu{
+    list-style-type: none;
+}
+
+/* spacing between links */
+ul.vertical_menu li{
+    display: block;
+    padding: 10px 0px;
+
+}
+
+/* making the entire block clickable, removing text decoration */
+ul.vertical_menu li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+/* div to hold badges */
+.badge_container{
+    width:300px;
+    margin-right: 30px;
+}
+
+/* further grouping to hold badges */
+.badge_container div{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+/* badge sizing */
+.badge1{
+    margin: auto;
+}
+
+/* badge sizing */
+.badge2{
+    width: 125px;
+    margin: auto;
 }
