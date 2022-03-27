@@ -333,3 +333,31 @@ ul.vertical_menu li a{
     width: 125px;
     margin: auto;
 }
+
+
+/* footer-2 */
+.footer_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 75px 100px 75px;
+}
+
+.footer_2 h1{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.footer_2 div img{
+    padding: 3px;
+}
+
+.brand_container{
+    display: flex;
+    align-items: center;
+}
+
+/* brand logo */
+.brand_logo{
+    height: 32px;
+}
