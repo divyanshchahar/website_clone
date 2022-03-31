@@ -343,19 +343,26 @@ ul.vertical_menu li a{
     padding: 50px 75px 100px 75px;
 }
 
+
+/* heading inside footer-2 */
 .footer_2 h1{
     font-size: 14px;
     margin-left: 10px;
 }
 
+
+/* images in footer-2 */
 .footer_2 div img{
     padding: 3px;
 }
 
+
+/* div to hold brand info */
 .brand_container{
     display: flex;
     align-items: center;
 }
+
 
 /* brand logo */
 .brand_logo{
